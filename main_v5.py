@@ -8,7 +8,9 @@ import openai  # OpenAIのAPIを扱うためのライブラリをインポート
 client = openai.OpenAI(api_key=st.secrets["GPTAPI"].get("OPENAI_API_KEY"))
 
 # Google Books APIキーの取得
-books_api_key = st.secrets["google"]["books_api_key"]
+# books_api_key = st.secrets["google"]["books_api_key"]
+st.write(st.secrets)  # secretsの中身を確認
+books_api_key = st.secrets["google"]["books_api_key
 
 # タイトル
 st.title('📚 学びたい内容に合った本をおすすめ！')
