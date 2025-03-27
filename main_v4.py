@@ -2,14 +2,15 @@ import datetime
 import pandas as pd
 import requests
 import streamlit as st
-from openai import OpenAI # OpenAIのAPIを扱うためのライブラリをインポート
+# from openai 
+import penai # OpenAIのAPIを扱うためのライブラリをインポート
 
 # # OpenAIクライアントの初期化
 # client = openai
 
 # StreamlitのSecretsからAPIキーを取得
 # 生成AI
-client = OpenAI(api_key = st.secrets["GPTAPI"].get("OPENAI_API_KEY"))
+client = openai(api_key = st.secrets["GPTAPI"].get("OPENAI_API_KEY"))
 # # google books
 # books_api_key = st.secrets["google"].get("books_api_key")
 
