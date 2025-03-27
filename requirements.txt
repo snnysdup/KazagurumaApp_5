@@ -2,3 +2,4 @@ streamlit
 plotly
 openai
 python-dotenv
+requests
