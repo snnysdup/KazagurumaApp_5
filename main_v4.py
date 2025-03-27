@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import streamlit as st
 # from openai 
-import penai # OpenAIのAPIを扱うためのライブラリをインポート
+import openai # OpenAIのAPIを扱うためのライブラリをインポート
 
 # # OpenAIクライアントの初期化
 # client = openai
